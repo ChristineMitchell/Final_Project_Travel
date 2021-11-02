@@ -54,7 +54,7 @@ Model performance varied. Some factors influencing this include:
 
 ![image](https://user-images.githubusercontent.com/82008319/136144380-d3cf0f69-8e1e-48cb-b73f-d457575b269b.png)
 
-During our presentation, we were asked about r2 scores which we had not originally captured. We reran the model, this time adding a random_state value, and the r2 scores of our updated model are shown below. There is not a strong correlation between our values and the weather can be difficult to predict precisely. This is even true for meterologists predicting tomorrow's weather. Since our project was to show the big picture for our travelers and we created prediction ranges instead of trying to predict precise values, we're hopeful our predictions will both be helpful to travelers and reasonably accurate.
+During our presentation, we were asked about r-squared scores which we had not originally captured. We reran the model, this time adding a random_state value, and the r-squared scores of our updated model are shown below. There is not a strong correlation between our values and the weather can be difficult to predict precisely. This is even true for meterologists predicting tomorrow's weather. Since our project was to show the big picture for our travelers and we created prediction ranges instead of trying to predict precise values, we're hopeful our predictions will both be helpful to travelers and reasonably accurate.
 
 ![image](https://user-images.githubusercontent.com/82008319/136459951-29a96987-d7f1-497a-825a-fb24a9eb8e89.png)
 
@@ -134,4 +134,24 @@ We originally were going to use YELP dataset via Kaggle, however found that the 
 
 ## London Sunshine Model Results
 ![image](https://user-images.githubusercontent.com/82008319/136265464-7db9217b-3b8c-40a8-a46e-eb78a7c115f8.png)
+
+## New models including r-squared scores
+
+Below are outputs, including r-squared scores, from new models.  Because we did not use a random_state value in earlier stages of our models, the outputs from these models differ and cannot be compared directly to the results above.  Next time, we would use a random_state value throughout to increase consistency and reduce pain points.
+
+### New high temp models with r-squared scores
+
+![r2_high_temp_model_results](https://user-images.githubusercontent.com/82730954/136567832-5f66df30-0268-4ebf-b6c9-00f6de92ce45.png)
+
+### New precipitation models with r-squared scores
+
+![r2_precip_model_results](https://user-images.githubusercontent.com/82730954/136567860-5e70568a-3810-44a8-9424-e759f6488485.png)
+
+### New NYC snowfall models with r-squared scores
+
+![r2_snowfall_model_results](https://user-images.githubusercontent.com/82730954/136567887-444285cc-31e6-49bd-b2bb-b5a5999d6c70.png)
+
+### New London sunshine models with r-squared scores
+
+![r2_sunshine_model_results](https://user-images.githubusercontent.com/82730954/136568249-ab252b9b-5c9f-4011-9f78-2cdd74f57c37.png)
 
